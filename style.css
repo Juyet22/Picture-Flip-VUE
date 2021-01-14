@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  margin: auto;
+}
+
+.loading {
+  margin: 12px;
+  text-align: center;
+}
+
+.action {
+  margin: 12px;
+  text-align: center;
+}
+
+.action button {
+  margin-right: 8px;
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+
+.link {
+  display: block;
+  padding: 8px;
+  text-align: center;
+  color: red;
+}
+
+.wrap {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-count: 4;
+  width: 1000px;
+}
+
+.img-wrap {
+  width: 25%;
+  padding: 8px;
+}
+
+.img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.move {
+  transition: transform 1s;
+}
+
+[v-cloak] {
+  display: none;
+}
