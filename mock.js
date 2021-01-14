@@ -29,5 +29,5 @@ function getImageGenerator() {
     }
     const size = getRandomInt(0, randomSize.length - 1);
     return source.splice(0, randomSize[size]);
-  }
+  } 
 }
