@@ -29,7 +29,7 @@ let getRandomInt = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
-
+// 数组乱序
 let shuffle = (arr) => {
   let ret = arr.slice()
   for (let i = 0; i < ret.length; i++) {
